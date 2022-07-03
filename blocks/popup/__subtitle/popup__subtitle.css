@@ -1,0 +1,9 @@
+.popup__subtitle {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

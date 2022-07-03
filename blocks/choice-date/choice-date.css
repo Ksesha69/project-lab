@@ -1,0 +1,16 @@
+.choice-date {
+    padding: 20px;
+    border: 1px solid #D6D6D6;
+    border-radius: 4px;
+    margin-bottom: 14px;
+}
+
+.choice-date:first-child {
+    border: 1px blue solid;
+}
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+    .choice-date {
+        max-width: 118px;
+    }
+}

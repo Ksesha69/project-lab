@@ -1,0 +1,19 @@
+.content__fields-btnLeft {
+    margin: 0;
+    padding: 0;
+    margin-right: 4px;
+    width: 40px;
+    height: 40px;
+    background-image: url(../../../../images/Vector\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.25;
+    border: 1px solid #D6D6D6;
+    border-radius: 4px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+    .content__fields-btnLeft {
+        display: none;
+    }
+}

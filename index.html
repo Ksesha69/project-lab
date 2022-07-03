@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" href="pages/index.css">
+    </head>
+    <body class="root">
+        <header class="header">
+            <h1 class="header__info">Оформление заказа</h1>
+        </header>
+        <section class="content">
+            <div class="content__fields">
+                <div class="content__fields-delivery">
+                    <div class="content__header">
+                        <h2 class="content__heading">Доставка</h2>
+                        <div>
+                            <button type="button" class="button content__fields-btnLeft"></button>
+                            <button type="button" class="button content__fields-btnRight"></button>
+                        </div>
+                    </div>
+                    <div class="content__fields-choice">
+                        <div class="choice-address">
+                            <p class="content__title">Почта России, курьер — 24-26 сент.</p>
+                            <span class="content__subtitle">ул. Академика Королева, 73/3, Петропавловск- Камчатский, 683000
+                                <span class="content__sum">+367 ₽</span>
+                            </span>
+                        </div>
+                        <div class="choice-address">
+                            <p class="content__title">Лабиринт, курьер — 25 сент.</p>
+                            <span class="content__subtitle">Можайское шоссе, д. 21, кв. 50, Москва, 121471
+                                <span class="content__sum">0 ₽</span>
+                            </span>
+                        </div>
+                    </div>
+                    <button type="button" class="button content__button">Выбрать новое место и способ</button>
+                    <div class="content__fields-date">
+                        <div class="choice-date">
+                            <p class="content__title">пн, 24 сен — ср, 26 сен</p>
+                            <span class="content__subtitle">10:00–19:00</span>
+                        </div>
+                        <div class="choice-date">
+                            <p class="content__title">чт, 27 сен — пт, 28 сен</p>
+                            <span class="content__subtitle">10:00–19:00</span>
+                        </div>
+                        <button type="button" class="button content__button">Другие дата и время</button>
+                    </div>
+                    <div class="more-function">
+                        <button type="button" class="button more-function__button"></button>
+                        <span class="content__subtitle">Viber/СМС уведомления о статусе заказа</span>
+                    </div>
+                    <div class="more-function">
+                        <button type="button" class="button more-function__button"></button>
+                        <span class="content__subtitle">Оставить у двери (бесконтактная доставка)</span>
+                    </div>
+                </div>
+                <h2 class="content__heading buyer">Получатель</h2>
+                <div class="content__fields-buyer">
+                    <div class="content__fields-name">
+                        <div class="content__option">
+                            <label>Имя и фамилия</label>
+                                <select class="select">
+                                    <option>Вольфганг Вениаминович Константинопольский</option>
+                                    <option>Иван Иванович Иванов</option>
+                                </select>
+                        </div>
+                        <button type="button" class="button content__button content__button_buyer">Новый получатель</button>
+                    </div>
+                    <div class="content__fields-phone">
+                        <div class="content__option">
+                            <label>Контактный телефон</label>
+                            <select class="select">
+                                <option>+7 910 234-56-78</option>
+                                <option>+7 912 345-67-89</option>
+                                <option>+7 987 654-32-10</option>
+                            </select>
+                        </div>
+                        <button type="button" class="button content__button">Новый телефон</button>
+                    </div>
+                </div>
+            </div>
+            <div class="content__info">
+                <h2 class="content__heading">В заказе 4 товара 
+                    <span>(2 кг)</span>
+                </h2>
+                <div class="content__info-description">
+                    <span class="content__subtitle">Цена товаров
+                        <p class="content__title">29 456 ₽</p></span>
+                    <span class="content__subtitle">Все скидки
+                        <p class="content__title">–7 732 ₽</p></span>
+                    <span class="content__subtitle">Скидка за предоплату
+                        <p class="content__title">–3%</p></span>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__info">
+                <p class="footer__title">Итого к оплате на сайте:
+                    <span class="footer__subtitle">21 072 ₽</span>
+                </p>
+                <button type="button" class="button popup-button">Подробнее</button>
+            </div>
+            <button type="button" class="button footer__button">Оформить и оплатить</button>
+        </footer>
+        <div class="popup">
+            <div class="popup__container">
+                <form class="popup__form">
+                    <h2 class="popup__heading">В заказе 5 товаров (2 кг)</h2>
+                    <div class="popup__description">
+                        <span class="popup__subtitle">Цена товаров
+                            <p class="popup__title">29 456 ₽</p></span>
+                        <span class="popup__subtitle">Все скидки
+                            <p class="popup__title">–7 732 ₽</p></span>
+                    </div>
+                    <div class="popup__result">
+                        <span class="popup__subtitle">К оплате:
+                            <p class="popup__title">21 072 ₽</p></span>
+                    </div>
+                    <button type="button" class="button popup__close-button">Закрыть подробности</button>
+                </form>
+            </div>
+        </div>
+        <script src="./pages/index.js"></script>
+    </body>
+</html>

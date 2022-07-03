@@ -1,0 +1,10 @@
+.root {
+    min-width: 375px;
+    max-width: 1905px;
+    margin: 0 auto;
+    color: #333333;
+    font-family: 'PT Root UI', sans-serif;
+    font-style: normal;
+    background-color: #F2F2F2;
+
+}

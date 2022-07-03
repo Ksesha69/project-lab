@@ -1,0 +1,8 @@
+.popup__description {
+    padding-bottom: 20px;
+    margin: 0 22px 0 16px;
+    border-bottom: 1px solid #D6D6D6;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}

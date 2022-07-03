@@ -1,0 +1,11 @@
+.content__fields-choice {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 14px;
+    overflow: scroll;
+}
+
+.content__fields-choice::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}

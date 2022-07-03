@@ -1,0 +1,19 @@
+.content__button {
+    border: 0;
+    padding: 0;
+    margin: 14px 0 30px;
+    background-color: #ffff;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #065CC2;
+
+}
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+    .content__button {
+        font-size: 17px;
+        line-height: 21px;
+        margin: 12px 0 24px;
+    }
+}

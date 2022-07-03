@@ -1,0 +1,12 @@
+.more-function__button {
+    background-image: url(../../../images/confirm\ \(2\).svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: #065CC2;
+    opacity: 0.25;
+    margin-right: 10px;
+}

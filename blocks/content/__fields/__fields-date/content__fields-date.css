@@ -1,0 +1,11 @@
+.content__fields-date {
+    display: flex;
+    gap: 14px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+    .content__fields-date {
+        gap: 0 8px;
+        flex-wrap: wrap;
+    }
+}

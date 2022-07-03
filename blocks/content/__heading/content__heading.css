@@ -1,0 +1,14 @@
+.content__heading {
+    margin: 0;
+    margin-bottom: 17px;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 37px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+    .content__heading {
+        font-size: 21px;
+        line-height: 26px;
+    }
+}

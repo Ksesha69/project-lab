@@ -1,0 +1,19 @@
+.footer__button {
+    width: 398px;
+    height: 80px;
+    background: linear-gradient(0deg, #EC0002, #EC0002), linear-gradient(91.91deg, rgba(208, 38, 38, 0) 0%, #D02626 99.65%), #FF0000;
+    border: 1px solid #E01D1D;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 37px;
+    color: #FFFFFF;
+    margin: 19px 120px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+    .footer__button {
+        width: 100%;
+        margin: 0 16px;
+    }
+}
