@@ -4,6 +4,7 @@
     font-size: 22px;
     line-height: 28px;
     letter-spacing: 0.13px;
+    min-width: 95px;
 }
 
 @media screen and (min-width: 360px) and (max-width: 768px) {
