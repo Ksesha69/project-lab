@@ -22,6 +22,7 @@
         font-weight: 700;
         font-size: 14px;
         line-height: 18px;
-
+        justify-content: flex-start;
+        min-width: 200px;
     }
 }
