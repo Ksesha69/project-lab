@@ -11,6 +11,14 @@
     margin: 19px 120px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 900px) {
+    .footer__button {
+        margin: 0;
+        margin-left: 120px;
+        margin-right: 20px;
+    }
+}
+
 @media screen and (min-width: 360px) and (max-width: 768px) {
     .footer__button {
         width: 100%;

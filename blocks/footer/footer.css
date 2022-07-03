@@ -9,6 +9,12 @@
     border-top: 1px solid #C5C5C5;
 }
 
+@media screen and (min-width: 768px) and (max-width: 900px) {
+    .footer {
+        margin: 0 auto;
+    }
+}
+
 @media screen and (min-width: 360px) and (max-width: 768px) {
     .footer {
         padding: 16px;
