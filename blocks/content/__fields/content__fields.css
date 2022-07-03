@@ -1,7 +1,7 @@
 .content__fields {
     padding-right: 40px;
     border-right: #8C8C8C 1px solid;
-    max-width: 65%;
+    max-width: 60%;
 }
 
 @media screen and (min-width: 768px) and (max-width: 950px) {
